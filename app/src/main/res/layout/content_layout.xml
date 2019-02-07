@@ -1,0 +1,159 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:padding="8dp">-->
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/cardview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--card_view:cardCornerRadius="6dp"-->
+        <!--card_view:cardElevation="6dp"-->
+        <!--card_view:contentPadding="7dp"-->
+        <!--android:padding="10dp"-->
+        <!--&gt;-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:scaleType="fitXY"-->
+                <!--android:text="Name: "-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textViewName"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_toRightOf="@+id/textView1"-->
+                <!--android:textSize="20sp"-->
+                <!--&gt;</TextView>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:scaleType="fitXY"-->
+                <!--android:text="Quantity: "-->
+                <!--android:layout_below="@+id/textViewName"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/customPriceRs"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_toRightOf="@+id/textView2"-->
+                <!--android:layout_below="@+id/textViewName"-->
+                <!--android:textSize="20sp"-->
+                <!--&gt;</TextView>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView3"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:scaleType="fitXY"-->
+                <!--android:text="Price: "-->
+                <!--android:layout_below="@+id/textView2"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/customTotalPriceRs"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_toRightOf="@+id/textView3"-->
+                <!--android:layout_below="@+id/customPriceRs"-->
+                <!--android:textSize="20sp"-->
+                <!--&gt;</TextView>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView4"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:scaleType="fitXY"-->
+                <!--android:text="Total Price: "-->
+                <!--android:layout_below="@+id/textView3"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/customactualquantity"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_toRightOf="@+id/textView4"-->
+                <!--android:layout_below="@+id/customTotalPriceRs"-->
+                <!--android:textSize="20sp"-->
+                <!--&gt;</TextView>-->
+
+
+
+
+        <!--</RelativeLayout>-->
+
+    <!--</android.support.v7.widget.CardView>-->
+
+<!--</RelativeLayout>-->
+<!--==============================================================-->
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="8dp">
+
+    <android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="6dp"
+    card_view:contentPadding="7dp"
+    android:padding="10dp" 
+        android:layout_marginTop="5dp"
+    >
+
+<ImageView
+    android:id="@+id/imgUrl"
+    android:layout_width="100dp"
+    android:layout_height="match_parent"
+    />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:text="Title - "
+            />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:text="Description - "
+            android:layout_marginTop="15dp"/>
+        
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
